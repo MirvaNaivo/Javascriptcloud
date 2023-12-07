@@ -15,7 +15,7 @@
 //   readline.question("Give statement: ", input => {
 //     output = input.trim()
 //     if(output.length <= 20) {
-//         console.log(output.toLowerCase())
+//         console.log(output.charAt(0).toLowerCase())
 //     }
 //     else {
 //         console.log("Statement too long")
@@ -33,8 +33,8 @@ const readline2 = require("node:readline").createInterface({
     if(input.length > 20) {
         console.log("Statement too long")
     }
-    else if(input !== input.toLowerCase()) {
-        console.log("Statement has to be lowercase")
+    else if(input.charAt(0) !== input.charAt(0).toLowerCase()) {
+        console.log("Statement has to start with lower case")
     }
     else if(input !== input.trim()) {
         console.log("Statement can't contain empty spaces in the beginning or in the end")
