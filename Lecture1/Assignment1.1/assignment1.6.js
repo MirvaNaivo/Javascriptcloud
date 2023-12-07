@@ -1,3 +1,4 @@
+//Raakileversio
 // let input = " This is A stateMent "
 // let output = input.trim()
 
@@ -6,6 +7,7 @@
 // }
 
 
+//Varsinainen tehtävä
 // const readline = require("node:readline").createInterface({
 //     input: process.stdin,
 //     output: process.stdout,
@@ -22,8 +24,7 @@
 //   });
 
 
-
-
+//ExtraBonus
 const readline2 = require("node:readline").createInterface({
     input: process.stdin,
     output: process.stdout,
